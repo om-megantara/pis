@@ -1,0 +1,56 @@
+    .tables {
+    	/* border: 1px solid green;
+	border-collapse: collapse; */
+    	margin: 0;
+    	padding: 0;
+    	width: 100%;
+    }
+
+    .tables td {
+    	padding: 0;
+    	/* width: 100%; */
+    	text-align: center;
+    	height: 15px;
+
+    }
+
+    .tengah {
+    	text-align: center;
+    }
+
+    .kiri {
+    	text-align: left;
+    }
+
+    .kanan {
+    	text-align: right;
+    }
+
+    .table td {
+    	margin: 0px;
+    	padding: 0px;
+
+    }
+
+    .pa1 {
+    	color: blue
+    }
+
+    .pa2 {
+    	color: green
+    }
+
+    .pb {
+    	color: brown;
+    }
+
+    body {
+    	font-size: 13px !important;
+    }
+
+    @page {
+    	size: auto;
+    	/* auto is the initial value */
+    	margin: 0mm;
+    	/* this affects the margin in the printer settings */
+    }
